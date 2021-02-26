@@ -29,7 +29,7 @@ bottom = height-padding
 x = 5
 
 #font = ImageFont.load_default
-font = ImageFont.truetype('/home/nhlee/dev/zero/prjLCDClock/DS-DIGI.TTF',15)
+font = ImageFont.truetype('/home/nhlee/dev/SSD1306/_font/DS-DIGI.TTF',15)
 
 while True:
     now = time.localtime()
