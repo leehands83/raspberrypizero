@@ -31,7 +31,7 @@ while True:
     now = time.localtime()
 #dt = "%04d-%02d-%02d" % (now.tm_year, now.tm_mon, now.tm_mday)
 #tt = "%04d-%02d-%02d  %02d:%02d:%02d" % (now.tm_year, now.tm_mon, now.tm_mday, now.tm_hour, now.tm_min, now.tm_sec)
-    volt = "V: %02.4f V" % (c.voltage())
+    volt = "V: %02.3f V" % (c.voltage())
     
     draw.rectangle((0,0,width,height), outline=0, fill=0)
 #   draw.text((x,top), dt , font=font,fill=255)
